@@ -1,0 +1,154 @@
+<!Doctype html>
+
+<html lang="en">
+	<head>
+
+		<title>GGs Flute Ensemble</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="A source for video game covers played by flutes.">
+		<meta name="keywords" content="Flute, Music Arrangments, Video Game Covers">
+		<meta name="author" content="Gustavo Ramirez">
+		<link rel="stylesheet" type="text/css" href="stylesheet/mainstyle.css">
+		<style>
+		h3 {
+			text-align: center;
+		}
+		</style>
+		
+	</head>
+	
+	
+	<body>
+	
+		<header>
+<!--Title for home page with image-->
+			<h1>Good Games' Flute Ensemble</h1>
+			<hr>
+			<img src="assets/flute.png" alt="a shiny yellow flute" height="120" width="125"> 
+
+		</header>
+		
+<!-- Nav bar -->
+		<div class="topnav">
+
+			<a href="mainpage.html">Home</a>
+			<a href="calendarpage.html">Calendar</a>
+			<a class ="active" href="signup.html">Sign Up</a>
+
+		</div>
+		
+		<main>
+		<p><strong>Please</strong> fill out this form to sign up. Thank you.</p>
+		
+		<form name="signUp" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="get">
+		<h3>Sign Up</h3>
+		
+		<div class="signupbg">
+		
+		<fieldset>
+		<legend>Tell us about yourself</legend><br /><br />
+		First Name: <input required type="text" name="firstname" placeholder="Enter first name" size="40"><br /><br />
+		Last Name: <input required type="text" name="lastname" placeholder="Enter last name" size="40"><br /><br />
+		Password: <input required type="password" name="password" size="15" maxlength="4" /><br /><br />
+		</fieldset>
+		
+		</div>
+		
+<!--Radio Buttons-->
+		<h3>Can we email you?</h3>
+		<div class="signupbg">
+		
+		<label for="email">Enter your email:</label>
+		<input type="email" id="email" name="email">
+		<br />
+		<br />
+		<input type="radio" name="emailList" value="yes" checked /> Yes
+		<br />
+		<input type="radio" name="emailList" value="no" /> No
+		<br />
+		
+		</div>
+		
+<!--Checkboxes-->
+		<h3>Choose your favorite video game genre(s):</h3>
+		<div class="signupbg">
+		
+		<input type="checkbox" name="interest" value="FPS" /> First Person Shooter<br />
+		<input type="checkbox" name="interest" value="RTS" /> Real Time Strategy<br />
+		<input type="checkbox" name="interest" value="MOBA" /> Multiplayer Online Battle Arena<br />
+		<input type="checkbox" name="interest" value="RPG" /> Role Playing Game<br />
+		<input type="checkbox" name="interest" value="MMO" /> Massively Multiplayer Online<br />
+		<input type="checkbox" name="interest" value="MMORPG" /> Massively Multiplayer Online Role Playing Games<br />
+		<br>
+		
+		</div>
+		
+<!--Drop down list-->
+		<h3>Choose your favorite instrument:</h3>
+		
+		<div class="signupbg">
+		
+		<br>
+		<select name="favinstrument">
+		
+			<option value="violin">Violin</option>
+			<option value="viola">Viola</option>
+			<option value="cello">Cello</option>
+			<option value="bass">Bass</option>
+			<option value="piccolo">Piccolo</option>
+			<option value="flute">Flute</option>
+			<option value="oboe">Oboe</option>
+			<option value="clarinet">Clarinet</option>
+			<option value="bassoon">Bassoon</option>
+			<option value="percussion">Percussion</option>
+			<option value="french_horn">French Horn</option>
+			<option value="tuba">Tuba</option>
+			<option value="trumpet">Trumpet</option>
+			<option value="trombone">Trombone</option>
+			
+		</select>
+		<br>
+		<br>
+		
+		</div>
+		
+<!--Text area-->
+		<h3> Comments </h3>
+		
+		<div class="signupbg">
+		
+		<br>
+		<textarea placeholder="Describe a time where the soundtrack in a game made you feel something." cols="30" rows="10" name="comments"></textarea>
+		<br>
+		<br>
+		
+		</div>
+		
+<!-- Submit and Clear -->
+		<h3> Submit or Clear </h3>
+		<div class="signupbg">
+		
+		<input type="submit" value="Submit">
+		<br><br>
+		
+		<input type="reset" value="Clear">
+		<br><br>
+		
+		</div>
+		
+		</form>
+		
+		</main>
+
+		<br>
+		<br>
+		<footer>
+<!--copyrights and contact link-->
+			<br>&copy;copyright 2020 by Gustavo Ramirez<br>
+			<a href="mailto:ramig12@mail.broward.edu">Contact</a>
+		
+		</footer>
+	
+	</body>
+
+</html>
